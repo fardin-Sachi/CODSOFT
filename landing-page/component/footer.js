@@ -9,10 +9,10 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className='flex bg-[#d3e4df] p-5 gap-x-20'>
+    <div className='flex bg-[#d3e4df] p-5 gap-x-20 h-full'>
         {/* Company */}
         <div className='p-4'>
-            <div className='text-3xl text- pb-5 font-bold'>Company</div>
+            <div className='text-2xl text- pb-5 font-bold'>Company</div>
             <ul>
                 <li>Careers</li>
                 <li>Design Careers</li>
@@ -24,7 +24,7 @@ export default function Footer() {
 
         {/* Resources */}
         <div className='p-4'>
-        <div className='text-3xl pb-5 pr-5 font-bold'>Resources</div>
+        <div className='text-2xl pb-5 pr-5 font-bold'>Resources</div>
             <ul>
                 <li>Home Design Ideas</li>
                 <li>Tutorial</li>
@@ -36,7 +36,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div className='p-4'>
-            <div className='text-3xl pb-5 font-bold'>
+            <div className='text-2xl pb-5 font-bold'>
                 Contact Us
             </div>
             <div className='flex'>

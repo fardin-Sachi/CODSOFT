@@ -1,6 +1,7 @@
 import React from 'react'
-import house from '@/public/house.png'
+import house from '@/public/Portfolio/house.png'
 import Image from 'next/image'
+import logo from "@/public/logo-icon-dark-transparent.png"
 
 export default function Hero() {
   return (
@@ -8,8 +9,16 @@ export default function Hero() {
         <div className='relative'>
             
             {/* Text */}
-            <div className='absolute z-20 top-0 left-0 w-full h-[170px] place-content-center justify-center'>
-                <p className='text-4xl font-bold text-center'>Your Dream Space, Our Creative Passion</p>
+            <div className='absolute z-20 top-0 left-0 w-full h-[170px] place-content-center justify-center py-8 px-10'>
+                <div className='flex place-content-center hover:scale-125 duration-300'>
+                    <Image 
+                        src={logo}
+                        alt='Arochi Interiors'
+                        width={150}
+                    />
+                    <p className='text-7xl font-extrabold text-center font-[poppins] py-10'>Arochi Interiors</p>
+                </div>
+                <p className='text-4xl font-semibold text-center font-[poppins] hover:scale-125 duration-300'>Your Dream Space, Our Creative Passion</p>
             </div>
 
             

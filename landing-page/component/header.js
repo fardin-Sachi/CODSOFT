@@ -41,10 +41,9 @@ const navItems = [
 ]
 export default function Header() {
   return (
-    <div className="header">
-        {/* <div className="py-2"></div> */}
-        <nav className="flex justify-center items-center gap-x-15 bg-[#e4e3d3] py-5">
-            <div className="rounded-lg">
+    <nav className="sticky top-0 z-30 flex justify-center items-center gap-x-15 bg-[#e4e3d3] py-2">
+        <div className="rounded-lg">
+            <Link href={"/"}>
                 <Image
                     src={logo}
                     alt="Arochi Interiors Logo"
@@ -53,19 +52,19 @@ export default function Header() {
                     placeholder="blur"
                     priority
                 />
-            </div>
-            <div>
-                <ul className="flex gap-x-15">
-                    {navItems.map(item => 
-                    <li key={item.id} className="font-semibold text-lg text-center">
-                        <Link href={item.path}>
-                            {item.title}
-                        </Link>
-                    </li>
-                    )}
-                </ul>
-            </div>
-        </nav>
-    </div>
+            </Link>
+        </div>
+        <div>
+            <ul className="flex gap-x-15">
+                {navItems.map(item => 
+                <li key={item.id} className="font-[poppins] font-semibold text-lg text-center hover:scale-120 duration-300">
+                    <Link href={item.path}>
+                        {item.title}
+                    </Link>
+                </li>
+                )}
+            </ul>
+        </div>
+    </nav>
   )
 }
