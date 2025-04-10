@@ -1,5 +1,5 @@
 import ProjectCard from "./cards/projectCard"
-import dummyImage from "@/public/me.jpg"
+import dummyImage from "@/public/me.png"
 
 const projectLists = [
     {
@@ -46,10 +46,10 @@ const projectLists = [
 
 export default function Projects() {
   return (
-    <div className='container pb-20 py-10 mx-auto px-15'>
+    <div id="projects" className='container mx-auto px-15 py-20'>
         <div className="hover:scale-115 duration-300 pb-15">
             <div className='flex justify-center'> 
-                <p className="text-5xl text-center font-bold font-[poppins]">Projects</p>
+                <p className="text-5xl text-center font-bold font-[pT_Serif_Caption]">Projects</p>
             </div>
             {/* <hr className='w-60 h-1 mx-auto bg-gray-400 border-0 rounded-sm ' /> */}
         </div>

@@ -1,17 +1,17 @@
 export default function Activities() {
     return (
-      <div className="container mx-auto py-10 px-15">
+      <div id="activities" className="container mx-auto px-15 py-20">
           <div className="flex justify-center mt-[3px] hover:scale-115 duration-300 pb-15">
-              <p className="text-5xl text-center font-bold font-[poppins]">Activities</p>
+              <p className="text-5xl text-center font-bold font-[pT_Serif_Caption]">Activities</p>
           </div>
   
-            <div>
+            <div className="flex flex-col gap-y-10">
                 <div className="flex shadow-2xl rounded-2xl py-10 px-10">
-                    <div className="w-3/4 pr-2">
-                        <div className="flex flex-col pb-3 gap-y-1">
+                    <div className="w-7/10 pr-2">
+                        <div className="flex flex-col gap-y-1">
                             <a target="_blank" href="https://www.facebook.com/CLUSTER.KU">
-                            <p className="text-justify font-[poppins] text-3xl font-bold ">CLUSTER, Khulna University</p>
-                            <p className="text-justify font-[poppins] font-medium text-2xl">President</p>
+                                <p className="text-justify font-[pT_Serif_Caption text-3xl font-bold ">CLUSTER, Khulna University</p>
+                                <p className="text-justify font-[pT_Serif_Caption] font-medium text-2xl">President</p>
                             </a>
                         </div>
                         <div className="flex flex-col pl-2">
@@ -28,19 +28,16 @@ export default function Activities() {
                     </div>
                     <div className="flex flex-col mx-auto w-auto">
                         <p className="text-justify font-[pT_Serif_Caption] text-lg">Khulna-9208, Khulna</p>
-                        <p className="text-justify font-[pT_Serif_Caption] text-lg">Mar 2024 – Feb 2025</p>
+                        <p className="text-justify font-[pT_Serif_Caption] text-lg">March 2024 – February 2025</p>
                     </div>
                 </div>
-            </div>
-
-
-            <div>
+                
                 <div className="flex shadow-2xl rounded-2xl py-10 px-10">
-                    <div className="w-3/4 pr-2">
-                        <div className="flex flex-col pb-3 gap-y-1">
+                    <div className="w-7/10 pr-2">
+                        <div className="flex flex-col gap-y-1">
                             <a target="_blank" href="https://www.facebook.com/groups/90982940236">
-                            <p className="text-justify font-[poppins] text-3xl font-bold ">Badhan, Khulna University</p>
-                            <p className="text-justify font-[poppins] font-medium text-2xl">Vice President</p>
+                            <p className="text-justify font-[pT_Serif_Caption] text-3xl font-bold ">Badhan, Khulna University</p>
+                            <p className="text-justify font-[pT_Serif_Caption] font-medium text-2xl">Vice President</p>
                             </a>
                         </div>
                         <div className="flex flex-col pl-2">
@@ -57,7 +54,7 @@ export default function Activities() {
                     </div>
                     <div className="flex flex-col mx-auto w-auto">
                         <p className="text-justify font-[pT_Serif_Caption] text-lg">Khulna-9208, Khulna</p>
-                        <p className="text-justify font-[pT_Serif_Caption] text-lg">Feb 2024 – Feb 2025</p>
+                        <p className="text-justify font-[pT_Serif_Caption] text-lg">February 2024 – February 2025</p>
                     </div>
                 </div>
             </div>

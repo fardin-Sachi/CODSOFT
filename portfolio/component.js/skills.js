@@ -101,10 +101,10 @@ const logos = [
 export default function Skills() {
     // console.log(logos.find(logo=>logo.name === c))
   return (
-    <div className='container pb-20 py-10 mx-auto px-15'>
+    <div id="skills" className='container mx-auto px-15 py-20'>
         <div className="hover:scale-115 duration-300 pb-15">
             <div className='flex justify-center'> 
-                <p className="text-5xl text-center font-bold font-[poppins]">Skills</p>
+                <p className="text-5xl text-center font-bold font-[pT_Serif_Caption]">Skills</p>
             </div>
             {/* <hr className='w-60 h-1 mx-auto bg-gray-400 border-0 rounded-sm ' /> */}
         </div>

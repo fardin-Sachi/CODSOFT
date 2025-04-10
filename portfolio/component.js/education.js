@@ -27,17 +27,17 @@ const institutions = [
 
 export default function Education() {
     return (
-      <div className="container mx-auto py-10 px-15">
+      <div id="education" className="container mx-auto px-15 py-20">
           <div className="flex justify-center mt-[3px] hover:scale-115 duration-300 pb-15">
-              <p className="text-5xl text-center font-bold font-[poppins]">Education</p>
+              <p className="text-5xl text-center font-bold font-[pT_Serif_Caption]">Education</p>
           </div>
   
           <div>
               <div className="flex shadow-2xl rounded-2xl py-10 px-10">
-                  <div className="w-3/4 pr-2">
+                  <div className="w-7/10 pr-2">
                       <div className="flex flex-col pb-3 gap-y-1">
-                          <p className="text-justify font-[poppins] text-3xl font-bold ">{institutions[0].name}</p>
-                          <p className="text-justify font-[poppins] font-medium text-2xl">{institutions[0].degree}</p>
+                          <p className="text-justify font-[pT_Serif_Caption] text-3xl font-bold ">{institutions[0].name}</p>
+                          <p className="text-justify font-[pT_Serif_Caption] font-medium text-2xl">{institutions[0].degree}</p>
                       </div>
                       <div className="flex flex-col">
                         <div className="flex">
@@ -52,7 +52,7 @@ export default function Education() {
                   </div>
                   <div className="flex flex-col mx-auto w-auto">
                       <p className="text-justify font-[pT_Serif_Caption] text-lg">{institutions[0].location}</p>
-                      <p className="text-justify font-[pT_Serif_Caption] text-lg">Jan 2020 - Jan 2025</p>
+                      <p className="text-justify font-[pT_Serif_Caption] text-lg">January 2020 - January 2025</p>
                   </div>
               </div>
           </div>

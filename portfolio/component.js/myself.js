@@ -4,19 +4,19 @@ import Link from "next/link";
 
 export default function Myself() {
   return (
-    <div className='container flex mx-auto max-h-min pt-15 pr-15 pl-15 align-middle'>
-        <div className="mx-auto p-6">
+    <div className='container flex mx-auto pt-25 px-15 py-20'>
+        <div className="mx-auto flex flex-col justify-center">
             <p className='font-[poppins] text-3xl font-bold pb-6'>Hi, this is</p>
             <p className='font-[pT_Serif_Caption] text-8xl font-bold pb-10'>Fardin Ahsan</p>
             
             <div className="shadow-2xl rounded-2xl p-8">
-              <div className="justify-normal flex border-black p-2">
+              <div className="justify-normal flex p-2">
                 {/* Location */}
                 <svg className="h-8 w-8 text-black"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
-                <p className="text-xl px-2 font-[pT_Serif_Caption] justify-center">Bangladesh Diesel Plant Officers’ Quarter, BOF-1703, Gazipur</p>
+                <p className="text-xl px-2 font-[pT_Serif_Caption] justify-center">Bangladesh Diesel Plant Officers&apos; Quarter, BOF-1703, Gazipur</p>
               </div>
               
               <div className="justify-normal flex border-black p-2">
@@ -49,8 +49,9 @@ export default function Myself() {
             </div>
         </div>
 
-        <div className="flex self-end pb-8">
+        <div className="grid place-self-end">
             <Image 
+                className=""
                 src={happyMe}
                 alt="Fardin Ahsan"
             />
