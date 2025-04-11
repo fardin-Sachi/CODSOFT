@@ -21,6 +21,23 @@ export default function Calculator() {
         }
     }
 
+    const handleKeyPress = (event) => {
+        const key = event.key
+        if("0123456789+-*/.=".includes(key)){
+            handleClick(key)
+        }
+        else if(key==="Enter"){
+            handleClick("=")
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("keydown", handleKeyPress)
+        return () => {
+            window.removeEventListener("keydown", handleKeyPress)
+        }
+    }, [displayString])
+
   return (
     <div className="flex flex-col justify-center m-52">
       <div className="border">
