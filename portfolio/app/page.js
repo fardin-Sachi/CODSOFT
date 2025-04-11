@@ -8,7 +8,6 @@ import Myself from "@/component.js/myself";
 import Navbar from "@/component.js/navbar";
 import Projects from "@/component.js/projects";
 import Skills from "@/component.js/skills";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,108 +22,6 @@ export default function Home() {
       <Certifications />
       <Activities />
       <Footer />
-      
-      {/* dawd
-      <br></br>
-      adada
-      <br></br>
-      adadada
-      <br></br>
-      adadadaadadad
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <Image 
-        src={"/me2.png"}
-        alt="Fardin Ahsan"
-        width={1000}
-        height={1000}
-      />
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      gfsiogfbhekuicfbnauiscnbfvnvwgbcvfyquwgfsiogfbhekuicfbnauiscnbfvnvwgbcvfyquwgfsiogfbhekuicfbnauiscnbfvnvwgbcvfyquwgfsiogfbhekuicfbnauiscnbfvnvwgbcvfyquwgfsiogfbhekuicfbnauiscnbfvnvwgbcvfyquwgfsiogfbhekuicfbnauiscnbfvnvwgbcvfyquw
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br> */}
     </div>
   );
 }

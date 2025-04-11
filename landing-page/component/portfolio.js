@@ -1,4 +1,4 @@
-import Card from './card'
+import Card from './cards/card'
 import bedroom from "@/public/portfolio/bedroom.png"
 import bathroom from "@/public/portfolio/bathroom.png"
 import kitchen from "@/public/portfolio/Kitchen.png"
