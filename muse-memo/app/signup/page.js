@@ -10,7 +10,7 @@ export default function SignUp() {
                 {/* Name and username */}
                 <div className="flex space-x-1">
                     <input 
-                        className='border-2 rounded-md p-2' 
+                        className='border-2 rounded-md p-2 placeholder:text-black' 
                         type='text'
                         name="name" 
                         placeholder='Full Name'
@@ -18,7 +18,7 @@ export default function SignUp() {
                         required
                     />
                     <input 
-                        className='border-2 rounded-md p-2' 
+                        className='border-2 rounded-md p-2 placeholder:text-black' 
                         type='text'
                         name="username" 
                         placeholder='Username'
@@ -27,7 +27,7 @@ export default function SignUp() {
                     />
                 </div>
                 <input 
-                    className='border-2 rounded-md p-2' 
+                    className='border-2 rounded-md p-2 placeholder:text-black' 
                     type='email'
                     name="email" 
                     placeholder='Enter your email'
@@ -79,7 +79,7 @@ export default function SignUp() {
                 </div>
                 
                 <input 
-                    className='border-2 rounded-md p-2' 
+                    className='border-2 rounded-md p-2 placeholder:text-black' 
                     type='password'
                     name="password" 
                     placeholder='Enter your password (8 characters minimum)'

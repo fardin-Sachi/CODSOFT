@@ -12,14 +12,14 @@ export default function SignIn() {
             {/* <p className='text-center'>Log into MuseMemo</p> */}
             <Form className='flex flex-col space-y-2.5' action="/search">
                 <input 
-                    className='border-2 rounded-md p-2' 
+                    className='border-2 rounded-md p-2 placeholder:text-black' 
                     type='email'
                     name="email" 
                     placeholder='Email'
                     required
                 />
                 <input 
-                    className='border-2 rounded-md p-2' 
+                    className='border-2 rounded-md p-2 placeholder:text-black' 
                     type='password'
                     name="password" 
                     placeholder='Enter your password'
