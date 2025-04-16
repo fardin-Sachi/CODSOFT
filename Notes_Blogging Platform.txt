@@ -70,7 +70,7 @@ Blogs:
 	Author (User)
 	Post
 	Categories [
-	
+		
 	]
 	Time pf Post
 	Comments {
